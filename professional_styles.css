@@ -1,0 +1,271 @@
+body, html {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, p, li {
+    color: #424242;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 400;
+}
+
+p {
+    color: #616161;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    display: table;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 20px 0px 20px;
+    background-color: white;
+    z-index: 99;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+}
+
+.header-logo {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+nav {
+    position: fixed;
+    display: inline-block;
+    float: left;
+    height: calc(100%);
+    min-height: 100%;
+    width: 245px;
+    padding: 80px 0 0 0;
+    overflow-y: none;
+    -webkit-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.25);
+}
+
+.nav-heading {
+    padding-left: 20px;
+}
+
+.main-image {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.main-image img {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thumbnails {
+    max-width: 350px;
+    width: 100%;
+}
+
+.thumbnail-image {
+    padding: 35px 15px 0 0;
+    float: left; 
+}
+
+.thumbnail-image img {
+    max-height: 50px; 
+    cursor: pointer;
+}
+
+.active-image {
+    border: 2px solid blue;
+}
+
+footer {
+    border-top: 1px solid black;
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-img {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    width: 205px;
+}
+
+.nav-items {
+    list-style: none;
+    margin: 0 0 40px 0;
+    padding: 0;
+}
+
+.nav-items li {
+    color: #616161;
+    padding: 10px 20px 10px 20px;
+    height: 42px;
+    line-height: 42px;
+}
+
+.nav-items li:hover {
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
+a:link {
+    text-decoration:none;
+    color: inherit;
+}
+
+a:active {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+.thin {
+    font-weight: 200;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.container {
+    height: auto;
+    margin-left: 245px;
+    padding: 55px;
+}
+
+.table {
+    display: table;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    margin: 0 0 95px 0;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+i {
+    margin: 0 10px 0 0;
+    transform: scale(1.2);
+}
+.portfolio {
+    transform: scale(1) !important;
+    transform: translateX(-3px) !important;
+    margin: 0 5px 0 0 !important;
+}
+
+.employer {
+    width: 220px;    
+}
+
+.employer-title {
+    padding-left: 20px;
+}
+
+.college {
+    width: 390px;
+}
+
+.study-image {
+    float: left;
+    padding: 0 15px 0 0;
+    transform: translateY(-5px);
+}
+
+.college-title {
+    padding-left: 20px;
+}
+
+td {
+    vertical-align: top;
+}
+
+.border-left {
+    border-left: 1px solid black;
+}
+
+.job-titles {
+    width: 200px;
+    position: relative;
+}
+
+.table-study {
+    width: 70%;
+    margin: 0 auto 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.toggle-box {
+    position: absolute;
+    top: 12px;
+    right: 60px;
+    width: 80px;
+    height: 34px;
+    border-radius: 30px;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    cursor: pointer;
+}
+
+#slider {
+    position: absolute;
+    top: 12px;
+    right: 90px;
+    width: 50px;
+    height: 34px;
+    border-radius: 50px;
+    background-color: blue;
+    z-index: 99;
+    cursor: pointer;
+}
+
+#toggle-text {
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    right: 150px;
+}
+
+button {
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    height: 35px;
+    border: 0;
+}
+
+

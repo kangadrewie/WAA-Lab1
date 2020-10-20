@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="professional_styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link id="stylesheet" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fbe49aa440.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Andrew Gorman</title>
+</head>
+<body>
+    <header>
+        <h2 class="header-logo thin">Andrew Gorman</h2>
+        <h4 id="toggle-text">Professional</h4>
+        <span class="toggle-box" onclick="toggle(this.id)"></span>
+        <span id="slider" onclick="toggle(this.id)"></span>
+    </header>
+    <nav>
+        <h3 class="nav-heading">Navigation</h3>
+        <ul class="nav-items">
+            <a href="#about">
+                <li>About Me</li>
+            </a>
+            <a href="#work">
+                <li>Where I've Worked</li>
+            </a>
+            <a href="#study">
+                <li>Where I've Studied</li>
+            </a>
+             <a href="#questions">
+                <li>Questions About Me</li>
+            </a>
+       </ul>
+        <h3 class="nav-heading">Social Media</h3>
+        <ul class="nav-items">
+            <a href="https://www.linkedin.com/in/drewgorman" id="LinkedIn" target="_blank">
+                <li>
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn
+                </li>
+            </a>
+            <a href="https://github.com/kangadrewie" target="_blank" id="GitHub">
+                <li>
+                    <i class="fab fa-github-square"></i>
+                    GitHub 
+                </li>
+            </a>
+            <a href="https://www.agorman.dev" id="Portfolio" target="_blank">
+                <li>
+                    <i class="fas fa-code portfolio"></i>
+                    Portfolio
+                </li>
+            </a>
+            <a href="https://www.dropbox.com/s/y7l3im7n48l2pt1/Andrew%20Gorman%20CV.pdf?dl=0"  id="CV" target="_blank">
+                <li>
+                    <i class="far fa-file-alt"></i>
+                    CV
+                </li>
+            </a>
+            <a href="mailto:andrewgorman101@gmail.com" target="_blank">
+                <li>
+                    <i class="far fa-envelope"></i>
+                    Mail
+                </li>
+            </a>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1 class="bold">Welcome!</h1>
+        <div class="main-image">
+            <img id="main-image-gallery" src="./images/image-gallery-0.jpg" alt="Andrew Gorman">
+        </div>
+        <div class="thumbnails">
+            <div id="image-gallery-0" class="thumbnail-image" onclick="changeImage(this.id)"><img class="active-image" src="./images/image-gallery-0.jpg" alt=""></div>
+            <div id="image-gallery-1" class="thumbnail-image" onclick="changeImage(this.id)"><img src="./images/image-gallery-1.jpg" alt=""></div>
+            <div id="image-gallery-2" class="thumbnail-image" onclick="changeImage(this.id)"><img src="./images/image-gallery-2.jpg" alt=""></div>
+            <div id="image-gallery-3" class="thumbnail-image" onclick="changeImage(this.id)"><img src="./images/image-gallery-3.jpg" alt=""></div>
+        </div>
+        <section id="about">
+            <h2>About Me</h2>
+            <p class="content">I am a passionate and aspiring Software Engineer studying a MSc in Computer Science (Part-Time) at Technological University Dublin. I've a strong desire to learn and grow my skillset in an industry that I am extremely enthusiastic about. I'm currently focused on developing my knowledge in Backend Web Development, but having worked as a Graphic Designer for 5 years, I have a keen eye for detail, design, symmetry, and colour and enjoy applying these skills to Front-End Development. I’m a fast learner, and firmly believe in the importance of interaction, feedback, and collaboration in the creative problem-solving process.</p>
+        </section>
+
+        <section>
+            <h2 id="work">Where I've Worked</h2>
+            <p>As a self-proclaimed rookie, I am relatively new to this industry, having only begun my journey to Software Engineering in the last 12 months. Before this, I worked as a Graphic Designer for a busy design studio in Dublin, and was most recently employed as an Employment Advisor responsible for managing a large client portfolio on behalf of the Department of Employment Affairs and Protection. However, over the course of the last 12 months, I have developed skills and knowledge in many area of Software Engineering, and am actively driven to continue exploring new technologies and concepts daily.</p>
+            <br>
+            <table>
+                <tr>
+                    <td class="employer">
+                        <h3 class="bold">O'Brien Print</h3>
+                    </td>
+                    <td class="border-left">
+                        <h4 class="employer-title bold">Graphic Designer | Aug, 2014 - Jan, 2020</h4>
+                        <ul>
+                            <li>Develop, design and produce creative designs for a wide variety of clients</li>
+                            <li>Projects include brochures, stickers, postcards, banners, posters, business cards, flyers, pens, diaries, notebooks and website materials</li>
+                            <li>Collaborate with Sales and Production departments to meet clients needs and restrictions (including budget)</li>
+                            <li>Design and execute email marketing campaigns using MailChimp</li>
+                        </ul>
+                </tr>
+            </table>
+        </section>
+        
+
+        <section>
+            <h2 id="study">Where I've Studied</h2>
+            <table>
+                <tr>
+                    <td class="college">
+                        <a class="study-image" href="https://www.tudublin.ie" target="_blank">
+                            <img class="study-image" src="./images/tudublin.png" alt="" width="125px">
+                        </a>
+
+                        <h3 class="bold">TU Dublin - City Campus</h3>
+                    </td>
+                    <td class="border-left">
+                        <h4 class="college-title bold">MSc Computer Sceince (Master's Qualifier), First Class Honours</h4>
+                        <h4 class="college-title">Modules</h4>
+                        <ul>
+                            <li>Object Oriented Software Development</li>
+                            <li>Information Systems</li>
+                            <li>Web and User Interface Design</li>
+                            <li>Architecture, Operation Systems and Networks</li>
+                            <li>System Analysis and Testing</li>
+                        </ul>
+                </tr>
+
+                <tr>
+                    <td class="college">
+                        <a class="study-image" href="https://www.dcu.ie" target="_blank">
+                            <img class="study-image" src="./images/dcu.png" alt="" width="105px">
+                        </a>
+
+                        <h3 class="bold">TU Dublin - City Campus</h3>
+                    </td>
+                    <td class="border-left">
+                        <h4 class="college-title bold">BA Hons Media Production Management, First Class Honours</h4>
+                        <h4 class="college-title">Modules</h4>
+                        <ul>
+                            <li>Research Methods</li>
+                            <li>Consumer Behaviour</li>
+                            <li>Human Resource Management</li>
+                            <li>Media and Entertainment Law</li>
+                            <li>Project Management</li>
+                            <li>International Media Marketing</li>
+                            <li>Strategic Media Management</li>
+                            <ul>
+                                <br>
+                                <li>Dissertation - Match Game: The Influence of Sponsor-Event Congruence on Brand Awareness and Brand Image in Esports</li>
+                                <a href="https://bit.ly/2Z5aliS" target="_blank">
+                                    <li class="bold">Dissertation Link - Click Here</li>
+                                </a>
+                            </ul>
+                        </ul>
+                </tr>
+                <tr>
+                    <td class="college">
+                        <a class="study-image" href="http://www.stjohnsdls.ie/" target="_blank">
+                            <img class="study-image" src="./images/johns.png" alt="" width="105px">
+                        </a>
+
+                        <h3 class="bold">St. John's College</h3>
+                    </td>
+                    <td class="border-left">
+                        <h4 class="college-title bold">Leaving Certificate, 2012</h4>
+                    </td>
+                </tr>
+
+            </table>
+        </section>
+
+        <section>
+            <h2 id="questions">Questions About Me</h2>
+            <h3>What is your favourite Programming Language?</h3>
+            <p id="ans1" class="hidden">Python 🐍</p>
+            <button onclick="revealAnswer(this.id)" id="reveal-ans1">Show Answer</button>
+
+            <h3>What is your favourite framework?</h3>
+            <p id="ans2" class="hidden">React 🚀</p>
+            <button onclick="revealAnswer(this.id)" id="reveal-ans2">Show Answer</button>
+
+            <h3>What is your least favourite programming language?</h3>
+            <p id="ans3" class="hidden">To be Confirmed 😅</p>
+            <button onclick="revealAnswer(this.id)" id="reveal-ans3">Show Answer</button>
+
+        </section>
+        <footer>
+            <div class="footer-contents">
+                <a class="footer-img" href="https://www.tudublin.ie" target="_blank">
+                    <img src="./images/tudublin.png" alt="" width="265px">
+                </a>
+                <h3>Current Time</h3>
+                <h4 id="time-box" class="bold"></h4>
+            </div>
+        </footer>
+    </div>
+</body>
+    <script src="scripts.js"></script>
+</html>
